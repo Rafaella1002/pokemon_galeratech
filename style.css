@@ -1,0 +1,140 @@
+* {
+    margin: 0 auto;
+}
+
+body {
+
+    margin: 0;
+    background: linear-gradient(135deg, #aad6db, #eeb5e0, rgb(234, 238, 177));
+     
+
+
+}
+
+main {
+    width: 1200px;
+    height: 600px;
+    background-color: black;
+}
+
+
+#a {
+    width: 380px;
+    height: 580px;
+    float: left;
+    padding: 10px;
+    background-color: #A7EBF2;
+}
+
+#b {
+    width: 380px;
+    height: 580px;
+    float: left;
+    background-color: #FF83A0;
+    padding: 10px;
+}
+
+#c {
+    width: 380px;
+    height: 580px;
+    float: right;
+    padding: 10px;
+    background-color: #F2CB57;
+}
+
+h1,
+#v,
+#f,
+#j {
+    text-align: center;
+}
+#f{
+    background-color: #FF83A0;
+        border-radius: 10px;
+    max-width: 100%;
+    box-shadow: 1px 1px 5px #362402;
+     padding: 10px;
+}
+#v{
+    background-color: #A7EBF2;
+        border-radius: 10px;
+    max-width: 100%;
+    box-shadow: 1px 1px 5px #362402;
+     padding: 10px;
+}
+#j{
+    background-color: #e6bc3f;
+
+        border-radius: 10px;
+    max-width: 100%;
+    box-shadow: 1px 1px 5px #362402;
+     padding: 10px;
+}
+.btm{
+   
+   width: 150px;
+   height: 30px;
+    background-color: #FF83A0;
+   text-align: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #362402;
+          position: center;
+      
+        margin-top: 15px;
+          
+}
+.btn{
+   
+   width: 150px;
+   height: 30px;
+    background-color: #e6bc3f;
+   text-align: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #362402;
+          position: center;
+      
+        margin-top: 15px;
+          
+}
+.btk{
+   
+   width: 150px;
+   height: 30px;
+    background-color: #A7EBF2;
+   text-align: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #362402;
+          position: center;
+      
+        margin-top: 15px;
+          
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+    line-height: 30px;
+}
+
+
+#g{
+   max-width: 100%;
+    box-shadow: 1px 1px 5px #362402;
+     border-radius: 10px;
+          text-align: center;
+          padding: 10px;
+        
+}
+
+
+img {
+    border-radius: 10px;
+    max-width: 100%;
+    box-shadow: 1px 1px 5px #362402;
+}
+ 
+
+@media only screen and (max-width: 768px){
+    #a, #b, #c{ width: 100%; height: auto;}
+    .btm, .btn, .btk{ margin-bottom: 20px;}
+}
